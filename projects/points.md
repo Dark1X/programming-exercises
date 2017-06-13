@@ -1,3 +1,4 @@
+## Punkty i kształty
 1. Na dwuwymiarowej przestrzeni chcemy reprezentować punkt (powinien zawierać dwa pola określające współrzędne X i Y)
 2. Punkt powinien mieć metodę określającą jego odległość od innego punktu
 3. Za pomocą dwóch punktów (określających początek i koniec) chcemy reprezentować linię. Linia powinna mieć metodę określającą jej długość
