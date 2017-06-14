@@ -8,7 +8,7 @@
 7. W klasie kola dopisać metodę `boolean hasCommonArea()`, ktora sprawdza czy inne koło ma z nim część wspólną.
 8. W klasie koła dopisać metodę, która sprawdza czy punkt zawiera się w kole.
 9. Stworzyć klasę prostokąt, która podobnie jak koło implementuje dwa przedstawione wcześniej interfejsy.
-10. W klasie prostokąd napisać metodę `boolean hasCommonArea()` która sprawdza czy dany prostokąt ma wspólny obszar z innym prostokątem (czy nachodzą na siebie).
+10. W klasie prostokąt napisać metodę `boolean hasCommonArea()` która sprawdza czy dany prostokąt ma wspólny obszar z innym prostokątem (czy nachodzą na siebie).
 11. Stworzyć klasę wielokąta, która składa się z wielu punktów. Klasa powinna implementować interfejs HasCircumference.
 
 Z gwiazdką (*) oznaczono punkt potencjalnie trudniejszy.
