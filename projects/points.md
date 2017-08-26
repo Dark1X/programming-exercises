@@ -5,7 +5,7 @@
 4. (*) W klasie linii stworzyć dwie metody sprawdzające czy inna linia jest równoległa i prostopadła do danej.
 5. Stworzyć interfejs `HasArea` (ma pole) z metodą `getArea()` oraz `HasCircumference` (ma obwód) `getCircumference()`
 6. Stworzyć klasę koła, które zawiera punkt (środek) oraz promień. Zaimplementować dwie metody liczące obwód oraz pole na podstawie stworzonych wcześniej interfejsow. Do obliczania wykorzystaj `Math.PI`.
-7. W klasie kola dopisać metodę `boolean hasCommonArea()`, ktora sprawdza czy inne koło ma z nim część wspólną.
+7. W klasie koła dopisać metodę `boolean hasCommonArea()`, ktora sprawdza czy inne koło ma z nim część wspólną.
 8. W klasie koła dopisać metodę, która sprawdza czy punkt zawiera się w kole.
 9. Stworzyć klasę prostokąt, która podobnie jak koło implementuje dwa przedstawione wcześniej interfejsy.
 10. W klasie prostokąt napisać metodę `boolean hasCommonArea()` która sprawdza czy dany prostokąt ma wspólny obszar z innym prostokątem (czy nachodzą na siebie).
