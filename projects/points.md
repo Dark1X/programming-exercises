@@ -2,7 +2,7 @@
 1. Na dwuwymiarowej przestrzeni chcemy reprezentować punkt (powinien zawierać dwa pola określające współrzędne X i Y)
 2. Punkt powinien mieć metodę określającą jego odległość od innego punktu
 3. Za pomocą dwóch punktów (określających początek i koniec) chcemy reprezentować linię. Linia powinna mieć metodę określającą jej długość
-4. (*) W klasie linii stworzyć dwie metody sprawdzające czy inna linia jest równoległa i prostopadła do danej.
+4. (*) W klasie linii stworzyć dwie metody sprawdzające czy inna linia jest równoległa, a druga czy jest prostopadła do danej.
 5. Stworzyć interfejs `HasArea` (ma pole) z metodą `getArea()` oraz `HasCircumference` (ma obwód) `getCircumference()`
 6. Stworzyć klasę koła, które zawiera punkt (środek) oraz promień. Zaimplementować dwie metody liczące obwód oraz pole na podstawie stworzonych wcześniej interfejsow. Do obliczania wykorzystaj `Math.PI`.
 7. W klasie koła dopisać metodę `boolean hasCommonArea()`, ktora sprawdza czy inne koło ma z nim część wspólną.
