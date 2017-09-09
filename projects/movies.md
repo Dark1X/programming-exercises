@@ -24,12 +24,13 @@ Przygotuj:
 - w pakiecie 'service' klasę MovieService, która będzie mieć metody odpowiadające na powyższe pytania. Service powinien zawierać w sobie repozytoria zdefiniowane w powyższym punkcie.
 - w pakiecie 'data' klasy odpowiadające za czytanie danych z plików - MovieDataReader, UserDataReader itd. Każda z tych klas powinna czytać plik CSV i zwracać listę odpowiednich obiektów. Możesz stworzyć dla tych klas wspólny interfejs przy użyciu klas generycznych.
 
+Zadania można rozwiązać przy użyciu strumieni oraz w "tradycyjny" sposób. 
 
 Polecam wersję mniejszą w formacie CSV, na dużej przetwarzanie może zajmować za dużo czasu. Mało praktyczne, przynajmniej podczas fazy tworzenia/prototypowania kodu, później jak już będzie działać można przetestować na większym.
 http://files.grouplens.org/datasets/movielens/ml-latest-small.zip
 Ten plik jest w formacie CSV - wartości oddzielone przecinkami. W taki sposób należy go czytać. 
 Niestety wadą tego zbioru jest to, że nie posiada informacji o użytkownikach serwisu, więc nie da się wykonać wszystkich zadań.
-Do czytania pliku możesz skorzystać z klasy CSVParser
+Do czytania pliku możesz skorzystać z klasy CSVParser - aby to zrobić należy dodać ją jako zależność do pliku `pom.xml`.
 https://commons.apache.org/proper/commons-csv/apidocs/org/apache/commons/csv/CSVParser.html
 
 
