@@ -14,3 +14,5 @@ Stwórz `AdvertDao`, które pozwoli przeszukiwać ogłoszenia według:
 - słów zawartych w tytule (np. jeśli tytuł ogłoszenia to "Sprzedam samochód opel astra" to ogłoszenie powinno zostać znalezione jeśli wpiszemy "opel" lub "astra")
 
 Napisz testy, które weryfikują poprawność wszystkich powyższych metod wyszukujących.
+
+Możesz zrobić interfejs `AdvertDao` zawierający tylko metody, a następnie dwie implementacje `JpqlAdvertDao` oraz `CriteriaAdvertDao` które będą realizować te same zadania wykorzystując dwa różne podejścia.
